@@ -4,7 +4,7 @@ import "./CarouselHero.css";
 
 const CarouselHero = () => {
   const slides = [
-    { image: "poultry.jpg",
+    { image: "Poultry.jpg",
       message: [
       { text: "Welcome", color: "#4CAF50" },
       { text: "to Our", color: "#FF5722" },
