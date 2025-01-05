@@ -1,0 +1,23 @@
+.sustainability {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .sustainability h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .sustainability p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .sustainability p {
+      font-size: 1em;
+    }
+  }

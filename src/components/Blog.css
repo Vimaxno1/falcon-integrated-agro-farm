@@ -1,0 +1,40 @@
+.blog {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+  }
+  
+  .blog h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+  }
+  
+  .blog-post {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post h3 {
+    color: #333;
+  }
+  
+  .blog-post p {
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
+    .blog-posts {
+      grid-template-columns: 1fr;
+    }
+  }
+  
